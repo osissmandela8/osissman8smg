@@ -1,17 +1,17 @@
 import Hero from "./Hero.jsx";
+import Kegiatan from "./Kegiatan.jsx";
 import Sambutan from "./Sambutan.jsx";
 
 function App() {
   return (
-    <div className="relative overflow-y-auto w-full h-screen overflow-x-hidden">
+    <div className="relative w-full h-screen overflow-x-hidden overflow-y-auto">
       <Hero />
-      <Sambutan />
+      <main>
+        <Sambutan />
+        <Kegiatan />
+      </main>
     </div>
   );
 }
 
 export default App;
-
-{
-  /* relative supaya bisa turun ga numpuk, h-screen biar full secara horizontal, settingan overflow buat ngilangin scrollbar */
-}

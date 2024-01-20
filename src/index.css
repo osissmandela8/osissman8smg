@@ -2,3 +2,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .item {
+    @apply rounded-[50px] bg-center bg-cover grid place-items-center hover:scale-105 duration-150 ease-in-out;
+  }
+}
