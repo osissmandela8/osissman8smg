@@ -18,7 +18,10 @@ function Sambutan() {
           <br />
           Hai Loyalist!
           <br />
-          Saya <span className="text-pink-500">Arantama Manna Dawai</span>{" "}
+          Saya{" "}
+          <span className="font-bold text-pink-500">
+            Arantama Manna Dawai
+          </span>{" "}
           sebagai ketua OSIS SMA Negeri 8 Semarang periode 2023/2024 turut
           menyambut bahagia atas diluncurkannya sebuah inovasi terbaru dari
           kami, yakni halaman portal website OSIS SMA Negeri 8 Semarang. Semoga
