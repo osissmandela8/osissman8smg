@@ -5,7 +5,7 @@
 
 @layer components {
   .item {
-    @apply rounded-[50px] bg-center bg-cover grid place-items-center hover:scale-105 duration-150 ease-in-out;
+    @apply rounded-[50px] bg-center bg-cover grid place-items-center hover:scale-95 duration-150 ease-in-out hover:saturate-0;
   }
   .socmed {
     @apply inline pr-64 text-2xl font-bold text-purple-500 duration-150 ease-in-out hover:text-pink-500;
@@ -13,6 +13,14 @@
   .nav {
     @apply inline pl-16 text-2xl font-medium duration-150 ease-in-out hover:scale-105 text-neutral-200 hover:text-white;
   }
+}
+
+.item:hover span {
+  display: none;
+}
+
+.item:hover:before {
+  content: "Coming Soon!";
 }
 
 ::-webkit-scrollbar {

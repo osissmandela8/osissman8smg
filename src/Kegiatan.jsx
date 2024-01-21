@@ -8,25 +8,29 @@ function Kegiatan() {
         <h2 className="pb-5 font-bold text-center text-7xl">Kegiatan Kami</h2>
         <div className="h-[75vh] w-[1120px] grid grid-cols-4 gap-5 text-center text-4xl font-bold font-['Inter]">
           <a className="item row-span-2 bg-[url('assets/kegiatan/ramadhan.png')]">
-            Ramadhan
+            <span>Ramadhan</span>
           </a>
           <a className="item col-span-2 bg-[url('assets/kegiatan/dd.png')]">
-            Dimas Diajeng
+            <span>Dimas Diajeng</span>
           </a>
           <a className="item bg-[url('assets/kegiatan/Classmeet.png')]">
-            Classmeet
+            <span>Classmeet</span>
           </a>
-          <a className="item bg-[url('assets/kegiatan/MPLS.png')]">MPLS</a>
+          <a className="item bg-[url('assets/kegiatan/MPLS.png')]">
+            <span>MPLS</span>
+          </a>
           <a className="item col-span-2 row-span-2 bg-[url('assets\kegiatan\hutri.png')]">
-            HUT RI
+            <span>HUT RI</span>
           </a>
           <a className="item col-span-2 row-span-2 bg-[url('assets/kegiatan/huts.png')]">
-            HUT Smandela
+            <span>HUT Smandela</span>
           </a>
           <a className="item bg-[url('assets/kegiatan/bb.png')]">
-            Bulan Bahasa
+            <span>Bulan Bahasa</span>
           </a>
-          <a className="item bg-[url('assets/kegiatan/LDK.png')]">LDK</a>
+          <a className="item bg-[url('assets/kegiatan/LDK.png')]">
+            <span>LDK</span>
+          </a>
         </div>
       </div>
     </section>
