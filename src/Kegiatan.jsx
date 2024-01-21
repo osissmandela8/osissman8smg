@@ -2,11 +2,11 @@ function Kegiatan() {
   return (
     <section
       id="kegiatan"
-      className="relative grid h-screen bg-gradient-to-b from-neutral-950 to-neutral-900"
+      className="grid h-screen place-items-center bg-gradient-to-b from-neutral-950 to-neutral-900"
     >
-      <div className="py-20 px-[160px]" data-aos="fade-up">
+      <div data-aos="fade-up ">
         <h2 className="pb-5 font-bold text-center text-7xl">Kegiatan Kami</h2>
-        <div className="h-[85%] px-[160px] relative grid grid-cols-4 gap-5 text-center text-4xl font-bold font-['Inter]">
+        <div className="h-[75vh] w-[1120px] grid grid-cols-4 gap-5 text-center text-4xl font-bold font-['Inter]">
           <a className="item row-span-2 bg-[url('assets/kegiatan/ramadhan.png')]">
             Ramadhan
           </a>

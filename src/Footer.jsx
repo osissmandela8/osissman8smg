@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="relative h-[25vh] bg-neutral-950 grid content-center px-[160px]">
+    <footer className="h-[25vh] bg-neutral-950 grid content-center px-[160px]">
       <div className="left-0 pb-4 font-bold text-7xl">Ikuti kami!</div>
       <ul>
         <li className="socmed">
