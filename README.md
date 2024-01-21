@@ -1,8 +1,17 @@
-# React + Vite
+# Catatan
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+```css
+.place-items-center {
+  place-items: center;
+}
+```
 
-Currently, two official plugins are available:
+untuk menaruh div di tengah secara vertikal dan horizontal
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```css
+.content-center {
+  align-content: center;
+}
+```
+
+untuk menaruh fiv di tengah hanya secara vertikal

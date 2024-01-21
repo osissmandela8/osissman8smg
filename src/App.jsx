@@ -1,15 +1,19 @@
-import Hero from "./Hero.jsx";
+import Header from "./Header.jsx";
 import Kegiatan from "./Kegiatan.jsx";
 import Sambutan from "./Sambutan.jsx";
+import Footer from "./Footer.jsx";
+import Nav from "./Nav.jsx";
 
 function App() {
   return (
-    <div className="relative w-full h-screen overflow-x-hidden overflow-y-auto">
-      <Hero />
+    <div className="w-full text-white">
+      <Header />
       <main>
         <Sambutan />
         <Kegiatan />
       </main>
+      <Footer />
+      <Nav />
     </div>
   );
 }

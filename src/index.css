@@ -7,4 +7,27 @@
   .item {
     @apply rounded-[50px] bg-center bg-cover grid place-items-center hover:scale-105 duration-150 ease-in-out;
   }
+  .socmed {
+    @apply inline pr-64 text-2xl font-bold text-purple-500 duration-150 ease-in-out hover:text-pink-500;
+  }
+  .nav {
+    @apply inline pl-16 text-2xl font-medium duration-150 ease-in-out hover:scale-105 text-neutral-200 hover:text-white;
+  }
+}
+
+::-webkit-scrollbar {
+  width: auto;
+}
+
+::-webkit-scrollbar-track {
+  background: #171717;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(168 85 247);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(99 102 241);
 }

@@ -1,12 +1,16 @@
 function Sambutan() {
   return (
-    <article className="relative h-screen bg-[url('assets/sambutan.png')] bg-center bg-cover grid place-items-center">
-      <div className="absolute left-0 pl-[160px] py-20 pr-24 h-[85%] w-[900px] bg-neutral-900 rounded-tr-[100px] rounded-br-[100px]">
-        <h2 className="text-white text-7xl font-bold font-['Inter']">
-          Sambutan
-        </h2>
+    <article
+      id="sambutan"
+      className="relative h-screen bg-[url('assets/sambutan.png')] bg-center bg-cover grid place-items-center"
+    >
+      <div
+        className="absolute left-0 pl-[160px] py-20 pr-24 h-[85%] w-[900px] bg-neutral-900 rounded-tr-[100px] rounded-br-[100px]"
+        data-aos="fade-right"
+      >
+        <h2 className=" text-7xl font-bold font-['Inter']">Sambutan</h2>
         <br />
-        <p className="text-white text-3xl font-normal font-['Inter']">
+        <p className=" text-3xl font-normal font-['Inter']">
           <span className="font-light">
             Asalamu&apos;alaikum Warahmatullah wabarakatuh
           </span>
