@@ -15,13 +15,13 @@ function Kegiatan() {
           <a className="item col-span-2 bg-[url('assets/kegiatan/dd.png')]">
             <span>Dimas Diajeng</span>
           </a>
-          <a className="item bg-[url('assets/kegiatan/Classmeet.png')]">
+          <a className="item bg-[url('assets/kegiatan/classmeet.png')]">
             <span>Classmeet</span>
           </a>
-          <a className="item bg-[url('assets/kegiatan/MPLS.png')]">
+          <a className="item bg-[url('assets/kegiatan/mpls.png')]">
             <span>MPLS</span>
           </a>
-          <a className="item col-span-2 row-span-2 bg-[url('assets\kegiatan\hutri.png')]">
+          <a className="item col-span-2 row-span-2 bg-[url('assets/kegiatan/hutri.png')]">
             <span>HUT RI</span>
           </a>
           <a className="item col-span-2 row-span-2 bg-[url('assets/kegiatan/huts.png')]">
@@ -30,7 +30,7 @@ function Kegiatan() {
           <a className="item bg-[url('assets/kegiatan/bb.png')]">
             <span>Bulan Bahasa</span>
           </a>
-          <a className="item bg-[url('assets/kegiatan/LDK.png')]">
+          <a className="item bg-[url('assets/kegiatan/ldk.png')]">
             <span>LDK</span>
           </a>
         </div>
