@@ -4,9 +4,11 @@ function Kegiatan() {
       id="kegiatan"
       className="grid h-screen place-items-center bg-gradient-to-b from-neutral-950 to-neutral-900"
     >
-      <div data-aos="fade-up ">
-        <h2 className="pb-5 font-bold text-center text-7xl">Kegiatan Kami</h2>
-        <div className="h-[75vh] w-[1120px] grid grid-cols-4 gap-5 text-center text-4xl font-bold font-['Inter]">
+      <div data-aos="fade-up">
+        <h2 className="pb-5 text-3xl font-bold text-center md:text-6xl lg:text-7xl">
+          Kegiatan Kami
+        </h2>
+        <div className="h-[75vh] w-[326px] md:w-[702px] lg:w-[1120px] grid grid-cols-4 gap-3 md:gap-5 lg:gap-6 text-center text-xs md:text-2xl lg:text-4xl font-bold">
           <a className="item row-span-2 bg-[url('assets/kegiatan/ramadhan.png')]">
             <span>Ramadhan</span>
           </a>

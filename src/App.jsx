@@ -6,7 +6,7 @@ import Nav from "./Nav.jsx";
 
 function App() {
   return (
-    <div className="w-full text-white">
+    <div className="w-screen text-white">
       <Header />
       <main>
         <Sambutan />

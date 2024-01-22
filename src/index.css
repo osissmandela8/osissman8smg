@@ -5,13 +5,13 @@
 
 @layer components {
   .item {
-    @apply rounded-[50px] bg-center bg-cover grid place-items-center hover:scale-95 duration-150 ease-in-out hover:saturate-0;
+    @apply rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150;
   }
   .socmed {
-    @apply inline pr-64 text-2xl font-bold text-purple-500 duration-150 ease-in-out hover:text-pink-500;
+    @apply inline mr-12 text-base font-bold text-purple-500 duration-300 ease-in-out md:mr-24 lg:mr-48 md:text-xl lg:text-2xl hover:text-pink-500;
   }
   .nav {
-    @apply inline pl-16 text-2xl font-medium duration-150 ease-in-out hover:scale-105 text-neutral-200 hover:text-white;
+    @apply px-8 text-lg font-medium duration-300 ease-in-out md:text-xl lg:text-2xl hover:scale-105 text-neutral-200 hover:text-white;
   }
 }
 
@@ -37,5 +37,5 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(99 102 241);
+  background: rgb(192 132 252);
 }
