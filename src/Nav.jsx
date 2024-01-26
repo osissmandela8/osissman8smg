@@ -8,13 +8,13 @@ function Nav() {
         </div>
       </div>
       <ul className="grid grid-cols-3 mb-[4vh] md:mb-[0.5vh] place-items-center md:text-right md:place-self-end">
-        <li className="nav">
+        <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl lg:text-2xl hover:scale-105 text-neutral-200 hover:text-white;">
           <a href="#header">Home</a>
         </li>
-        <li className="nav">
+        <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl lg:text-2xl hover:scale-105 text-neutral-200 hover:text-white;">
           <a href="#sambutan">Sambutan</a>
         </li>
-        <li className="nav">
+        <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl lg:text-2xl hover:scale-105 text-neutral-200 hover:text-white;">
           <a href="#kegiatan">Kegiatan</a>
         </li>
       </ul>

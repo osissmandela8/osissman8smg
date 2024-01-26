@@ -3,18 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-  .item {
-    @apply rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150;
-  }
-  .socmed {
-    @apply inline mr-12 text-base font-bold text-purple-500 duration-300 ease-in-out md:mr-24 lg:mr-48 md:text-xl lg:text-2xl hover:text-pink-500;
-  }
-  .nav {
-    @apply px-8 text-lg font-medium duration-300 ease-in-out md:text-xl lg:text-2xl hover:scale-105 text-neutral-200 hover:text-white;
-  }
-}
-
 .item:hover span {
   display: none;
 }
