@@ -4,7 +4,7 @@ function Nav() {
       <div className="flex flex-row invisible md:visible md:place-self-start">
         <img
           className="h-[4vh]"
-          src="assets/logoosis.png"
+          src={"assets/logoosis.png"}
           alt="Logo OSIS"
         ></img>
         <div className="self-center pl-4 text-2xl font-bold">
