@@ -4,7 +4,6 @@ import Sambutan from "./Sambutan.jsx";
 import Footer from "./Footer.jsx";
 import Nav from "./Nav.jsx";
 import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
       <Footer />
       <Nav />
       <Analytics />
-      <SpeedInsights />
     </div>
   );
 }
