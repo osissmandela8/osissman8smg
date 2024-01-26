@@ -28,3 +28,9 @@ untuk menaruh div di tengah secara vertikal dan horizontal.
 ```
 
 untuk menaruh div di tengah hanya secara vertikal.
+
+## Image & Background Image
+
+1. perhatikan nama path
+2. perhatikan nama file (ekstensi, kapitalisasi) di dalam github repository
+3. pastikan sudah import sebelum memanggil, tidak seperti html biasanya
