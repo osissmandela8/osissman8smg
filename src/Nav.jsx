@@ -2,7 +2,11 @@ function Nav() {
   return (
     <nav className="fixed top-0 h-[6.25vh] w-[100vw] bg-neutral-900 bg-opacity-75 place-items-center content-center grid grid-cols-1 md:grid-cols-2 md:px-[32px] lg:px-[160px]">
       <div className="flex flex-row invisible md:visible md:place-self-start">
-        <img className="h-[4vh]" src="assets/logo.png"></img>
+        <img
+          className="h-[4vh]"
+          src="assets/logoosis.png"
+          alt="Logo OSIS"
+        ></img>
         <div className="self-center pl-4 text-2xl font-bold">
           OSIS SMAN 8 Semarang
         </div>
