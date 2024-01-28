@@ -2,7 +2,7 @@ function Sambutan() {
   return (
     <article
       id="sambutan"
-      className="h-screen bg-neutral-900 grid place-items-center md:bg-[url('assets/tablet/sambutan.png')] lg:bg-[url('assets/desktop/sambutan.png')] md:bg-center md:bg-cover"
+      className="h-[90vh] md:h-screen bg-neutral-900 grid place-items-center md:bg-[url('assets/tablet/sambutan.png')] lg:bg-[url('assets/desktop/sambutan.png')] md:bg-center md:bg-cover"
     >
       <div
         className="grid place-items-center md:absolute md:left-0 md:h-[85vh] md:bg-neutral-900 md:rounded-tr-[100px] md:rounded-br-[100px] md:w-[480px] lg:w-[900px] px-[16px] md:px-[32px] lg:pl-[160px] lg:pr-24"
