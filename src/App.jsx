@@ -4,6 +4,9 @@ import Sambutan from "./Sambutan.jsx";
 import Footer from "./Footer.jsx";
 import Nav from "./Nav.jsx";
 import { Analytics } from "@vercel/analytics/react";
+import { injectSpeedInsights } from "@vercel/speed-insights";
+
+injectSpeedInsights();
 
 function App() {
   return (
