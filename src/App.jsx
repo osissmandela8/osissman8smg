@@ -1,25 +1,32 @@
-import Header from "./Header.jsx";
-import Kegiatan from "./Kegiatan.jsx";
-import Sambutan from "./Sambutan.jsx";
-import Footer from "./Footer.jsx";
-import Nav from "./Nav.jsx";
+import {
+  Route,
+  createBrowserRouter,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
 import { Analytics } from "@vercel/analytics/react";
 import { injectSpeedInsights } from "@vercel/speed-insights";
+import MainLayout from "./layouts/MainLayout.jsx";
+import HomePage from "./pages/HomePage.jsx";
+import Ramadhan from "./pages/Ramadhan.jsx";
 
 injectSpeedInsights();
 
 function App() {
+  const router = createBrowserRouter(
+    createRoutesFromElements(
+      <Route path="/" element={<MainLayout />}>
+        <Route index element={<HomePage />} />
+        <Route path="/ramadhan" element={<Ramadhan />} />
+      </Route>
+    )
+  );
+
   return (
-    <div className="w-screen text-white">
-      <Header />
-      <main>
-        <Sambutan />
-        <Kegiatan />
-      </main>
-      <Footer />
-      <Nav />
+    <>
+      <RouterProvider router={router} />
       <Analytics />
-    </div>
+    </>
   );
 }
 
