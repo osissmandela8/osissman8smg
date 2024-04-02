@@ -1,6 +1,7 @@
 import Header from "../components/Header.jsx";
 import Kegiatan from "../components/Kegiatan.jsx";
 import Sambutan from "../components/Sambutan.jsx";
+import HomeNav from "../components/HomeNav.jsx";
 
 function HomePage() {
   return (
@@ -10,6 +11,7 @@ function HomePage() {
         <Sambutan />
         <Kegiatan />
       </main>
+      <HomeNav />
     </>
   );
 }

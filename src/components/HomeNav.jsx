@@ -1,10 +1,10 @@
 import logoosis from "../assets/logoosis.png";
 import { Link } from "react-router-dom";
 
-function Nav() {
+function HomeNav() {
   return (
     <nav
-      className="fixed top-0 h-[6.25vh] w-[100vw] bg-black  place-items-center content-center grid grid-cols-1 md:grid-cols-2 md:px-[32px] lg:px-[160px]"
+      className="fixed top-0 h-[6.25vh] w-[100vw] bg-neutral-900 bg-opacity-75 place-items-center content-center grid grid-cols-1 md:grid-cols-2 md:px-[32px] lg:px-[160px]"
       data-aos="fade-down"
     >
       <Link
@@ -16,7 +16,7 @@ function Nav() {
           OSIS SMAN 8 Semarang
         </div>
       </Link>
-      <ul className="invisible grid grid-cols-3 mb-[4vh] md:mb-[0.5vh] place-items-center md:text-right md:place-self-end">
+      <ul className="grid grid-cols-3 mb-[4vh] md:mb-[0.5vh] place-items-center md:text-right md:place-self-end">
         <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl lg:text-2xl hover:scale-105 text-neutral-200 hover:text-white;">
           <a href="#header">Home</a>
         </li>
@@ -31,4 +31,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default HomeNav;
