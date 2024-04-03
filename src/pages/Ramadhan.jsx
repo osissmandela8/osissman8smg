@@ -9,9 +9,9 @@ function Ramadhan() {
           <div className="bg-center bg-cover"></div>
           <div className="w-screen pt-14 md:w-[720px] p-[24px]">
             <h1 className="text-[32px] md:text-[42px] font-bold">
-              Batal Bukber Jir
+              Keseruan Event Ramadhan
             </h1>
-            <img className="pt-5" src={tes}></img>
+            <img className="pt-5 rounded-[25px]" src={tes}></img>
             <h2 className="pt-5 text-[20px] md:text-24px font-bold">
               Heading 2
             </h2>
