@@ -1,4 +1,7 @@
-import tes from "../assets/ramadhan/tes.jpg";
+import Cover from "../assets/ramadhan/cover.jpeg";
+import Khitobah from "../assets/ramadhan/khitobah.jpg";
+import Kaligrafi from "../assets/ramadhan/kaligrafi.jpeg";
+import Pemenang from "../assets/ramadhan/pemenang.jpeg";
 import Nav from "../components/Nav";
 
 function Ramadhan() {
@@ -7,57 +10,89 @@ function Ramadhan() {
       <main>
         <article className="grid place-items-center bg-[#171717] pb-10">
           <div className="bg-center bg-cover"></div>
-          <div className="w-screen pt-14 md:w-[720px] p-[24px]">
+          <div className="w-screen pt-14 md:w-[768px] p-[24px]">
             <h1 className="text-[32px] md:text-[42px] font-bold">
               Keseruan Event Ramadhan
             </h1>
-            <img className="pt-5 rounded-[25px]" src={tes}></img>
-            <h2 className="pt-5 text-[20px] md:text-24px font-bold">
-              Heading 2
+            <img
+              className="pt-5 rounded-[25px] w-full"
+              src={Cover}
+              alt="cover"
+            ></img>
+            <p className="pt-2 text-[18px] md:text-22px">
+              Halo teman-teman, apa kabar? SMAN 8 ada update terbaru seputar
+              acara MUNDELA yang baru saja digelar oleh OSIS SMAN 8 Semarang,
+              nih. Acaranya berlangsung selama 3 hari, dari tanggal 13-15 Maret
+              2023, bertempat di Masjid dan ruang serbaguna sekolah.
+              <br />
+              <br />
+              Nah, selama 3 hari itu, kita semua sibuk banget lho! Sebagai
+              panitia kita bekerja keras buat memastikan acara berjalan lancar
+              dan sukses. Ada banyak perlombaan seru yang diikuti oleh
+              siswa-siswi SMAN 8, mulai dari lomba adzan, khitobah, kaligrafi,
+              sampai tartil Al-Quran. Semuanya berlomba dengan penuh semangat
+              dan antusias, karena selain dapat hadiah, mereka juga bisa
+              mendekatkan diri ke Allah SWT.
+            </p>
+            <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
+              Hari Pertama
             </h2>
+            <p className="pt-2 text-[18px] md:text-22px">
+              Pada hari pertama, tanggal 13 Maret, ada lomba tartil Al-Quran
+              yang digelar di Masjid, serta lomba khitobah yang diselenggarakan
+              di ruang serbaguna. Para peserta tampil dengan penuh semangat dan
+              khusyuk, membuat suasana semakin khidmat.
+            </p>
+            <img className="pt-5 rounded-[25px] w-full" src={Khitobah}></img>
+            <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
+              Hari Kedua
+            </h2>
+            <p className="pt-2 text-[18px] md:text-22px">
+              Lalu, di hari kedua (14 Maret), giliran lomba adzan yang digelar
+              di Masjid. Suara-suara merdu nan khusyuk membahana, membuat hati
+              tenang dan damai. Sementara itu, di ruang serbaguna, ada lomba
+              kaligrafi yang memamerkan karya-karya indah bertuliskan ayat suci
+              Al-Quran.
+            </p>
+            <img
+              className="pt-5 rounded-[25px] w-full"
+              src={Kaligrafi}
+              alt="kaligrafi"
+            ></img>
+            <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
+              Hari Terakhir
+            </h2>
+            <p className="pt-2 text-[18px] md:text-22px">
+              Nah, di hari terakhir (15 Maret), acara puncaknya adalah pembagian
+              hadiah bagi para pemenang. Semua peserta yang telah berjuang keras
+              mendapatkan apresiasi dan penghargaan yang layak. Suasana semakin
+              meriah dan penuh keberkahan.
+            </p>
+            <img
+              className="pt-5 rounded-[25px] w-full"
+              src={Pemenang}
+              alt="pemenang"
+            ></img>
             <p className="pt-5 text-[18px] md:text-22px">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio
-              facilisis mauris sit amet massa. Varius vel pharetra vel turpis
-              nunc eget lorem dolor sed. Volutpat sed cras ornare arcu dui
-              vivamus arcu. Erat imperdiet sed euismod nisi porta. Massa eget
-              egestas purus viverra accumsan in nisl. Phasellus vestibulum lorem
-              sed risus. Id leo in vitae turpis massa sed. Volutpat ac tincidunt
-              vitae semper quis lectus. Hac habitasse platea dictumst
-              vestibulum. Pharetra diam sit amet nisl.
-              <br /> <br />
-              Nec dui nunc mattis enim. Arcu non odio euismod lacinia at quis
-              risus sed. Tristique nulla aliquet enim tortor. Pellentesque
-              pulvinar pellentesque habitant morbi. Id donec ultrices tincidunt
-              arcu non. Nibh nisl condimentum id venenatis a. Arcu non sodales
-              neque sodales ut. Eu facilisis sed odio morbi quis commodo odio
-              aenean. Ac turpis egestas maecenas pharetra convallis posuere
-              morbi leo urna. Leo vel orci porta non. In arcu cursus euismod
-              quis viverra nibh cras. Nibh nisl condimentum id venenatis a
-              condimentum vitae. Nam libero justo laoreet sit amet cursus sit.
-              Lacinia at quis risus sed vulputate odio ut. Platea dictumst
-              quisque sagittis purus sit. Massa massa ultricies mi quis
-              hendrerit dolor magna eget est. In egestas erat imperdiet sed
-              euismod nisi porta lorem.
+              Pokoknya, acara MUNDELA ini sukses besar deh! Semua peserta tampil
+              dengan maksimal dan kompak. Selain itu, panitia juga sudah bekerja
+              keras buat memastikan acara berjalan lancar. Aku bangga banget
+              sama teman-teman OSIS yang udah berjuang demi suksesnya acara ini.
               <br />
               <br />
-              Quis varius quam quisque id diam vel quam elementum. Consequat
-              mauris nunc congue nisi vitae suscipit tellus mauris a. Vitae
-              elementum curabitur vitae nunc sed velit dignissim sodales ut.
-              Accumsan sit amet nulla facilisi morbi tempus. Tellus mauris a
-              diam maecenas sed enim ut sem viverra. Bibendum arcu vitae
-              elementum curabitur vitae. Vivamus arcu felis bibendum ut
-              tristique et egestas. Sem et tortor consequat id porta nibh.
-              Cursus in hac habitasse platea dictumst quisque. Nunc vel risus
-              commodo viverra maecenas accumsan lacus. Aliquet porttitor lacus
-              luctus accumsan tortor posuere ac ut consequat. Risus pretium quam
-              vulputate dignissim. Amet facilisis magna etiam tempor orci eu
-              lobortis elementum. Nunc aliquet bibendum enim facilisis gravida
-              neque convallis a cras. Facilisi nullam vehicula ipsum a. Nec
-              feugiat in fermentum posuere. Id aliquet risus feugiat in.
-              Tristique senectus et netus et malesuada fames.
+              Nah, itulah dokumentasi singkat dari acara MUNDELA yang baru saja
+              digelar. Semoga kegiatan-kegiatan positif seperti ini bisa terus
+              dilaksanakan, biar kita sebagai umat Muslim bisa lebih dekat
+              dengan Allah SWT. Sampai jumpa lagi ya!
+              <br />
               <br />
             </p>
+            <a
+              href="https://drive.google.com/drive/folders/199JZNSLMdlSl3BPd4aECm0lcqdUao2j5"
+              className="pt-5 text-[20px] md:text-24px font-bold text-purple-500 duration-300 hover:text-pink-500"
+            >
+              <i>Link Dokumentasi</i>
+            </a>
           </div>
         </article>
       </main>

@@ -12,7 +12,7 @@ function Kegiatan() {
         </h2>
         <div className="h-[65vh] md:h-[75vh] w-[326px] md:w-[702px] lg:w-[1120px] grid grid-cols-4 gap-3 md:gap-5 lg:gap-6 text-center text-xs md:text-2xl lg:text-4xl font-bold">
           <Link
-            to="/"
+            to="/ramadhan"
             className=" row-span-2 bg-[url('assets/kegiatan/1ramadhan.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
           >
             <span>Ramadhan</span>
