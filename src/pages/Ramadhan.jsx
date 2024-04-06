@@ -110,9 +110,16 @@ function Ramadhan() {
               Lomba Kaligrafi
             </h2>
             <ol className="pt-2 text-[18px] md:text-22px">
-              <li>Juara 1: X-4</li>
-              <li>Juara 2: X-1</li>
-              <li>Juara 3: X-10</li>
+              <li>
+                Juara 1: Sanitya Gandari Novriyani & Raisa Ramadhani Putri (X-4)
+              </li>
+              <li>
+                Juara 2: Larasati Ruspanto Putri & Nafisa Nailal Husna (X-1)
+              </li>
+              <li>
+                Juara 3: Nur Alif Richi Mubarok & Maolina Mutiara Khasanah
+                (X-10)
+              </li>
             </ol>
 
             <p className="pt-5 text-[18px] md:text-22px">
