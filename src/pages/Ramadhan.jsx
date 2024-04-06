@@ -1,6 +1,7 @@
-import Cover from "../assets/ramadhan/cover.jpeg";
+import Cover from "../assets/ramadhan/cover.png";
 import Khitobah from "../assets/ramadhan/khitobah.jpg";
 import Kaligrafi from "../assets/ramadhan/kaligrafi.jpeg";
+2;
 import Pemenang from "../assets/ramadhan/pemenang.jpeg";
 import Nav from "../components/Nav";
 
@@ -19,7 +20,8 @@ function Ramadhan() {
               src={Cover}
               alt="cover"
             ></img>
-            <p className="pt-2 text-[18px] md:text-22px">
+
+            <p className="pt-5 text-[18px] md:text-22px">
               Halo teman-teman, apa kabar? SMAN 8 ada update terbaru seputar
               acara MUNDELA yang baru saja digelar oleh OSIS SMAN 8 Semarang,
               nih. Acaranya berlangsung selama 3 hari, dari tanggal 13-15 Maret
@@ -34,6 +36,7 @@ function Ramadhan() {
               dan antusias, karena selain dapat hadiah, mereka juga bisa
               mendekatkan diri ke Allah SWT.
             </p>
+
             <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
               Hari Pertama
             </h2>
@@ -44,6 +47,7 @@ function Ramadhan() {
               khusyuk, membuat suasana semakin khidmat.
             </p>
             <img className="pt-5 rounded-[25px] w-full" src={Khitobah}></img>
+
             <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
               Hari Kedua
             </h2>
@@ -59,6 +63,7 @@ function Ramadhan() {
               src={Kaligrafi}
               alt="kaligrafi"
             ></img>
+
             <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
               Hari Terakhir
             </h2>
@@ -73,6 +78,43 @@ function Ramadhan() {
               src={Pemenang}
               alt="pemenang"
             ></img>
+
+            <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
+              Lomba Khitobah
+            </h2>
+            <ol className="pt-2 text-[18px] md:text-22px">
+              <li>Juara 1: Fatihah Azka Azizah (XI-2)</li>
+              <li>Juara 2: Zakiyah Nabighah Ufairah (X-4)</li>
+              <li>Juara 3: Farha Naurah Az Zahra (X-7)</li>
+            </ol>
+
+            <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
+              Lomba Tartil
+            </h2>
+            <ol className="pt-2 text-[18px] md:text-22px">
+              <li>Juara 1: Najwa Markhamatun Nisa' (XI-1)</li>
+              <li>Juara 2: Muhammad Asyieffa M.A (XI-2)</li>
+              <li>Juara 3: Zahra Azizahtul Fadhila (X-8)</li>
+            </ol>
+
+            <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
+              Lomba Adzan
+            </h2>
+            <ol className="pt-2 text-[18px] md:text-22px">
+              <li>Juara 1: Muhammad Ali Ramadhan (XI-4)</li>
+              <li>Juara 2: Muhammad Dicky Aulia Chandra (XI-1)</li>
+              <li>Juara 3: Habib Akbar Pratama (XI-6)</li>
+            </ol>
+
+            <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
+              Lomba Kaligrafi
+            </h2>
+            <ol className="pt-2 text-[18px] md:text-22px">
+              <li>Juara 1: X-4</li>
+              <li>Juara 2: X-1</li>
+              <li>Juara 3: X-10</li>
+            </ol>
+
             <p className="pt-5 text-[18px] md:text-22px">
               Pokoknya, acara MUNDELA ini sukses besar deh! Semua peserta tampil
               dengan maksimal dan kompak. Selain itu, panitia juga sudah bekerja
