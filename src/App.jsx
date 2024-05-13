@@ -9,6 +9,7 @@ import { injectSpeedInsights } from "@vercel/speed-insights";
 import MainLayout from "./layouts/MainLayout.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import Ramadhan from "./pages/Ramadhan.jsx";
+import DimasDiajeng from "./pages/DimasDiajeng.jsx";
 
 injectSpeedInsights();
 
@@ -18,6 +19,7 @@ function App() {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
         <Route path="/ramadhan" element={<Ramadhan />} />
+        <Route path="/dimasdiajeng" element={<DimasDiajeng />} />
       </Route>
     )
   );

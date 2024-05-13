@@ -17,7 +17,10 @@ function Kegiatan() {
           >
             <span>Ramadhan</span>
           </Link>
-          <Link className="item col-span-2 bg-[url('assets/kegiatan/2dd.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150">
+          <Link
+            to="/dimasdiajeng"
+            className="item col-span-2 bg-[url('assets/kegiatan/2dd.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
+          >
             <span>Dimas Diajeng</span>
           </Link>
           <Link className="item bg-[url('assets/kegiatan/3classmeet.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150">
