@@ -147,6 +147,8 @@ function DimasDiajeng() {
               mendapatkannya. Acara Dimas Diajeng tahun ini bener-bener seru dan
               sukses banget. Nggak sabar nunggu tahun depan, pasti bakal lebih
               keren lagi!
+              <br />
+              <br />
             </p>
 
             <a
