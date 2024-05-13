@@ -1,4 +1,5 @@
 import Cover from "../assets/dimasdiajeng/cover.png";
+import Duta from "../assets/dimasdiajeng/duta.jpg";
 import Nav from "../components/Nav";
 
 function DimasDiajeng() {
@@ -141,6 +142,12 @@ function DimasDiajeng() {
               </li>
               <li>Duta Literasi: I Gede Refaya dan Rivana Rahmadani Widarti</li>
             </ul>
+
+            <img
+              className="pt-5 rounded-[25px] w-full"
+              src={Duta}
+              alt="duta"
+            ></img>
 
             <p className="pt-5 text-[18px] md:text-22px">
               Wah, selamat buat para pemenang ya! Kalian semua memang pantas
