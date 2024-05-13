@@ -19,7 +19,7 @@ function Kegiatan() {
           </Link>
           <Link
             to="/dimasdiajeng"
-            className="item col-span-2 bg-[url('assets/kegiatan/2dd.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
+            className="col-span-2 bg-[url('assets/kegiatan/2dd.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
           >
             <span>Dimas Diajeng</span>
           </Link>
