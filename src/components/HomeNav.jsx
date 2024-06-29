@@ -17,14 +17,14 @@ function HomeNav() {
             OSIS SMAN 8 Semarang
           </div>
         </Link>
-        <ul className="grid grid-cols-3 mb-[4vh] md:mb-[0.5vh] place-items-center md:text-right md:place-self-end">
-          <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white;">
+        <ul className="absolute md:relative grid grid-cols-3 md:mb-[5px] place-items-center md:text-right md:place-self-end">
+          <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white">
             <a href="#header">Home</a>
           </li>
-          <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white;">
+          <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white">
             <a href="#sambutan">Sambutan</a>
           </li>
-          <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white;">
+          <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white">
             <a href="#kegiatan">Kegiatan</a>
           </li>
         </ul>
