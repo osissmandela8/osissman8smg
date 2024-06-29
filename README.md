@@ -34,3 +34,18 @@ untuk menaruh div di tengah hanya secara vertikal.
 1. perhatikan nama path
 2. perhatikan nama file (ekstensi, kapitalisasi) di dalam github repository
 3. pastikan sudah import sebelum memanggil, tidak seperti html biasanya
+
+## Tentang viewport
+
+aku akan bantu visualisasi kan. walau layar hape itu 1920x1080, angka tersebut tidak memberi gambaran yang baik tentang viewport handphone sebenarnya, misal iphone 14 pro max itu viewportnya 430x932. jadi begini, anggap konten dari website itu harus berkembang sesuai dengan layar device (phone->tablet->laptop->desktop) sampai dengan titik tertentu. jadi konten itu ukurannya cukup berkembang sampai dengan tablet saja, di titik desktop, kita cukup menambah margin di kiri dan kanan. karena kita tidak mau penonton saat membaca itu menggeser mata terlalu jauh.
+
+untuk melihat bagaimana website akan terlihat di beragam device cukup pakai developer tools di browsermu, f12. (ingat bahwa pada segala device, selalu ada potongan di atas dan dibawah layar untuk tombol)
+
+## Mengatur ukuran
+
+absolute size > relative size
+sizing > padding, lebih bagus untuk responsive design
+
+## AOS
+
+aku lupa dokumentasi cara nambahin aos cuy sorry
