@@ -1,6 +1,6 @@
 import {
   Route,
-  createHashRouter,
+  createBrowserRouter,
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
@@ -14,7 +14,7 @@ import DimasDiajeng from "./pages/DimasDiajeng.jsx";
 injectSpeedInsights();
 
 function App() {
-  const router = createHashRouter(
+  const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
