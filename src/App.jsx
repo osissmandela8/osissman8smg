@@ -4,14 +4,10 @@ import {
   createRoutesFromElements,
   RouterProvider,
 } from "react-router-dom";
-import { Analytics } from "@vercel/analytics/react";
-import { injectSpeedInsights } from "@vercel/speed-insights";
 import MainLayout from "./layouts/MainLayout.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import Ramadhan from "./pages/Ramadhan.jsx";
 import DimasDiajeng from "./pages/DimasDiajeng.jsx";
-
-injectSpeedInsights();
 
 function App() {
   const router = createBrowserRouter(
@@ -27,7 +23,6 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      <Analytics />
     </>
   );
 }
