@@ -1,51 +1,38 @@
-# Catatan
+# Website OSIS SMAN 8 Semarang
 
-ketika berganti proses dari design ui/ux ke front-end programming, kita gaboleh berpikir seperti designer lagi, kita gaboleh barpatok pada\
-figma to code, kita harus buat sendiri kerangka pake logika pemrogramman.
+![Alamak!](https://media1.tenor.com/m/2gyy4BcsLWsAAAAd/monkey-confused.gif)
 
-## Grid vs Flex
+Kamu cukup di luar nalar untuk memilih jalan ini.
 
-flex itu paddingnya nyesuain dengan content didalamnya, sedangkan grid itu enggak, grid tu kayak kita punya tanah trus kita petak-petakin
+## Teknologi yang Digunakan
 
-## Padding vs Margin
+- **JavaScript**: Vite w/ React
+- **CSS**: TailwindCSS
+- **Animasi**: AOS
+- **Web Hosting**: Netlify
 
-ibarat lapangan yang dibatasi suatu net kalau kita perbesar padding kita itu perbesar jarak antara lapangan dengan net, kalau kita perbesar margin itu seperti kita perbesar jarak bangku dengan net yang ada di luar
+## Menurunkan Kepengurusan ke Periode Selanjutnya
 
-## Positioning
+Jadi sebenernya akun utama OSIS itu kuubah jadi organisasi dan ternyata gak bisa dibalikin😂. (Gapapa lah biar jadi badge💀), Jadi kalian kalau mau nambahin diri kalian jadi member organisasi tinggal login akun (.github), trus invite aja. Kalau kalian gapeduli tentang ngepush update dari akun pribadi kalian ya berarti kalian gak usah invite sama sekali.
 
-```css
-.place-items-center {
-  place-items: center;
-}
-```
+Akun GitHub sama Netlify pake yang akun (.github), kalo google search console tetep pake akun utama.
 
-untuk menaruh div di tengah secara vertikal dan horizontal.
+## Saran (kalo mau)
 
-```css
-.content-center {
-  align-content: center;
-}
-```
+Sebenernya kalo kamu cuma mau ganti-ganti teks/gambar gaperlu tahu terlalu detail si
 
-untuk menaruh div di tengah hanya secara vertikal.
+1. Paling engga pelajarilah dulu Git, npm, React.
+2. Kalo mau ngubah pelajari Tailwind, Responsive Web Design, Grid vs. Flex, Padding vs. Margin, % vs px, Positioning, dll.
+3. Kalo nambah fitur selalu bikin dokumentasi juga, biar ga bingung kalo lihat kode lagi.
+4. Jangan berharap banyak sama figma to code😂
+5. Kalo kamu nanya gimana caranya ngubah-ngubah gambar/teks doang, baca lagi no.1😂
 
-## Image & Background Image
+## Kontak mungkin?
 
-1. perhatikan nama path
-2. perhatikan nama file (ekstensi, kapitalisasi) di dalam github repository
-3. pastikan sudah import sebelum memanggil, tidak seperti html biasanya
+kalo ada pertanyaan mungkin bisa kontak aku di Instagram, cuma aku buka Instagram paling sebulan sekali😂 jadi ya silahkan dicoba.
 
-## Tentang viewport
+1. @tristanozaa
 
-aku akan bantu visualisasi kan. walau layar hape itu 1920x1080, angka tersebut tidak memberi gambaran yang baik tentang viewport handphone sebenarnya, misal iphone 14 pro max itu viewportnya 430x932. jadi begini, anggap konten dari website itu harus berkembang sesuai dengan layar device (phone->tablet->laptop->desktop) sampai dengan titik tertentu. jadi konten itu ukurannya cukup berkembang sampai dengan tablet saja, di titik desktop, kita cukup menambah margin di kiri dan kanan. karena kita tidak mau penonton saat membaca itu menggeser mata terlalu jauh.
+(kalo kamu mau kontribusi nambah namamu silahkan aja)
 
-untuk melihat bagaimana website akan terlihat di beragam device cukup pakai developer tools di browsermu, f12. (ingat bahwa pada segala device, selalu ada potongan di atas dan dibawah layar untuk tombol)
-
-## Mengatur ukuran
-
-absolute size > relative size
-sizing > padding, lebih bagus untuk responsive design
-
-## AOS
-
-aku lupa dokumentasi cara nambahin aos cuy sorry
+![Sigma](https://media1.tenor.com/m/oLAXXJxlPvkAAAAd/sigma.gif)
