@@ -31,7 +31,7 @@ function Kegiatan() {
           <Link
             to="/classmeet1"
             onClick={scrollToTop}
-            className="item bg-[url('assets/kegiatan/3classmeet.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
+            className="bg-[url('assets/kegiatan/3classmeet.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
           >
             <span>Classmeet</span>
           </Link>
