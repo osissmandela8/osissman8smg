@@ -18,7 +18,7 @@ function Ramadhan() {
             <img
               className="pt-5 rounded-[25px] w-full"
               src={Cover}
-              alt="cover"
+              alt="Cover"
             ></img>
 
             <p className="pt-5 text-[18px] md:text-22px">
@@ -61,7 +61,7 @@ function Ramadhan() {
             <img
               className="pt-5 rounded-[25px] w-full"
               src={Kaligrafi}
-              alt="kaligrafi"
+              alt="Kaligrafi"
             ></img>
 
             <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
@@ -76,7 +76,7 @@ function Ramadhan() {
             <img
               className="pt-5 rounded-[25px] w-full"
               src={Pemenang}
-              alt="pemenang"
+              alt="Pemenang Lomba"
             ></img>
 
             <h2 className="pt-5 text-[20px] md:text-24px font-bold text-pink-500">
@@ -137,7 +137,7 @@ function Ramadhan() {
               <br />
             </p>
             <a
-              href="https://drive.google.com/drive/folders/199JZNSLMdlSl3BPd4aECm0lcqdUao2j5"
+              href="https://terabox.com/s/1TTtjYKk8mD1QQqdsnEuOnA"
               className="pt-5 text-[20px] md:text-24px font-bold text-purple-500 duration-300 hover:text-pink-500"
             >
               <i>Link Dokumentasi</i>

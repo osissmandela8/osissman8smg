@@ -16,7 +16,7 @@ function DimasDiajeng() {
             <img
               className="pt-5 rounded-[25px] w-full"
               src={Cover}
-              alt="cover"
+              alt="Cover"
             ></img>
 
             <p className="pt-5 text-[18px] md:text-22px">
@@ -146,7 +146,7 @@ function DimasDiajeng() {
             <img
               className="pt-5 rounded-[25px] w-full"
               src={Duta}
-              alt="duta"
+              alt="Duta Dimas Diajeng"
             ></img>
 
             <p className="pt-5 text-[18px] md:text-22px">
