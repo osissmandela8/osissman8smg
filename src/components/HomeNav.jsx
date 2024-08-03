@@ -19,10 +19,10 @@ function HomeNav() {
         </Link>
         <ul className="absolute md:relative grid grid-cols-3 md:mb-[3px] place-items-center md:text-right md:place-self-end">
           <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white">
-            <a href="#header">Home</a>
+            <a href="#sambutan">Sambutan</a>
           </li>
           <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white">
-            <a href="#sambutan">Sambutan</a>
+            <a href="#profil">Profil</a>
           </li>
           <li className="px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white">
             <a href="#kegiatan">Kegiatan</a>

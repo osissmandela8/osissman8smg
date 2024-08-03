@@ -57,3 +57,7 @@ kalo misal kamu ganti web hosting atau apala, kalo trouble coba baca docs, kemun
 ## Selalu kompress gambarmu
 
 tidak perlu diperjelas
+
+## jangan pake vercel
+
+vercel kena ban di ig karena banyak orang bikin semacam linktree buat judi slot jir😂😂😂
