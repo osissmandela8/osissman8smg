@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
 
 function Kegiatan() {
   return (
@@ -13,12 +16,14 @@ function Kegiatan() {
         <div className="h-[65vh] md:h-[75vh] w-screen md:w-[768px] p-[24px] grid grid-cols-4 gap-3 md:gap-4 text-center text-xs md:text-2xl font-bold">
           <Link
             to="/ramadhan"
+            onClick={scrollToTop}
             className=" row-span-2 bg-[url('assets/kegiatan/1ramadhan.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
           >
             <span>Ramadhan</span>
           </Link>
           <Link
             to="/dimasdiajeng"
+            onClick={scrollToTop}
             className="col-span-2 bg-[url('assets/kegiatan/2dd.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
           >
             <span>Dimas Diajeng</span>

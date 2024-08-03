@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Profil() {
   return (
     <section
-      id="Profil"
+      id="profil"
       className="grid h-[90vh] md:h-screen place-items-center bg-gradient-to-b from-neutral-950 to-neutral-900"
     >
       <div data-aos="fade-up">

@@ -1,6 +1,8 @@
 import logoosis from "../assets/logoosis.png";
 import { Link } from "react-router-dom";
-
+const scrollToTop = () => {
+  window.scrollTo(0, 0);
+};
 function HomeNav() {
   return (
     <nav
@@ -11,6 +13,7 @@ function HomeNav() {
         <Link
           to="/"
           className="flex flex-row invisible md:visible md:place-self-start"
+          onClick={scrollToTop}
         >
           <img className="h-[30px]" src={logoosis} alt="Logo OSIS"></img>
           <div className="self-center pl-4 text-xl font-bold">

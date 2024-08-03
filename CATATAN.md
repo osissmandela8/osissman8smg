@@ -56,7 +56,7 @@ kalo misal kamu ganti web hosting atau apala, kalo trouble coba baca docs, kemun
 
 ## Selalu kompress gambarmu
 
-tidak perlu diperjelas
+tidak perlu diperjelas, selalu kompress kalo kamu masukin gambar, dimanapun kamu naroknya
 
 ## jangan pake vercel
 
