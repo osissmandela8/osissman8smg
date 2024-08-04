@@ -1,6 +1,8 @@
 import Cover from "../assets/dimasdiajeng/cover.png";
 import Duta from "../assets/dimasdiajeng/duta.jpg";
 import Nav from "../components/Nav";
+import Wawancara from "../assets/dimasdiajeng/wawancara.png";
+import Catwalk from "../assets/dimasdiajeng/catwalk.png";
 
 function DimasDiajeng() {
   return (
@@ -28,6 +30,14 @@ function DimasDiajeng() {
               dan pengetahuan para peserta. Penasaran? Yuk, kita intip
               keseruannya!
             </p>
+
+            <iframe
+              className="w-full aspect-video rounded-[25px] pt-5"
+              frameborder="0"
+              src="https://mega.nz/embed/p7NBmTRZ#Z6ZJvuJ09BMdeQdL3zieW8iedDtoHRadv1Kwh_FCKCo"
+              allowfullscreen
+              alt="Aftermovie Dimas Diajeng"
+            ></iframe>
 
             <p className="pt-5 text-[18px] md:text-22px">
               Awal mula, event Dimas Diajeng ini diadakan untuk memperingati
@@ -143,6 +153,16 @@ function DimasDiajeng() {
               <li>Duta Literasi: I Gede Refaya dan Rivana Rahmadani Widarti</li>
             </ul>
 
+            <img
+              className="pt-5 rounded-[25px] w-full"
+              src={Wawancara}
+              alt="Wawancara"
+            ></img>
+            <img
+              className="pt-5 rounded-[25px] w-full"
+              src={Catwalk}
+              alt="Catwalk"
+            ></img>
             <img
               className="pt-5 rounded-[25px] w-full"
               src={Duta}
