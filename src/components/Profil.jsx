@@ -14,6 +14,8 @@ function Profil() {
           <iframe
             src="https://www.youtube.com/embed/SGgokA4yLI8"
             className="w-full h-full rounded-[25px]"
+            allowfullscreen
+            alt="Profil"
           ></iframe>
         </div>
       </div>
