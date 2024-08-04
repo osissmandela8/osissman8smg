@@ -34,7 +34,7 @@ function DimasDiajeng() {
             <iframe
               className="w-full aspect-video rounded-[25px] pt-5"
               frameborder="0"
-              src="https://mega.nz/embed/p7NBmTRZ#Z6ZJvuJ09BMdeQdL3zieW8iedDtoHRadv1Kwh_FCKCo"
+              src="https://mega.nz/embed/YnkESbjR#6vV_axeshr-49wJ08T2YZr044vfcHSS-zjdJIeLHgzo"
               allowfullscreen
               alt="Aftermovie Dimas Diajeng"
             ></iframe>
