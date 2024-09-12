@@ -9,6 +9,8 @@ import HomePage from "./pages/HomePage.jsx";
 import Ramadhan from "./pages/Ramadhan.jsx";
 import DimasDiajeng from "./pages/DimasDiajeng.jsx";
 import ClassMeet1 from "./pages/ClassMeet1.jsx";
+import MPLS from "./pages/MPLS.jsx";
+import HUTRI from "./pages/HUTRI.jsx";
 
 function App() {
   const router = createBrowserRouter(
@@ -18,6 +20,8 @@ function App() {
         <Route path="/ramadhan" element={<Ramadhan />} />
         <Route path="/dimasdiajeng" element={<DimasDiajeng />} />
         <Route path="/classmeet1" element={<ClassMeet1 />} />
+        <Route path="/mpls" element={<MPLS />} />
+        <Route path="/hutri" element={<HUTRI />} />
       </Route>
     )
   );

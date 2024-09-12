@@ -35,10 +35,18 @@ function Kegiatan() {
           >
             <span>Classmeet</span>
           </Link>
-          <Link className="item bg-[url('assets/kegiatan/4mpls.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150">
+          <Link
+            to="/mpls"
+            onClick={scrollToTop}
+            className="bg-[url('assets/kegiatan/4mpls.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
+          >
             <span>MPLS</span>
           </Link>
-          <Link className="item col-span-2 row-span-2 bg-[url('assets/kegiatan/5hutri.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150">
+          <Link
+            to="/hutri"
+            onClick={scrollToTop}
+            className="col-span-2 row-span-2 bg-[url('assets/kegiatan/5hutri.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
+          >
             <span>HUT RI</span>
           </Link>
           <Link className="item col-span-2 row-span-2 bg-[url('assets/kegiatan/6huts.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150">
