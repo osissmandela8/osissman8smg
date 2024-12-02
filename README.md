@@ -4,13 +4,13 @@ IF YOU WANT TO PUSH CHANGES TO NETLIFY, YOU MUST MAKE THIS REPOSITORY PUBLIC, TH
 
 # Website OSIS SMAN 8 Semarang
 
-![Alamak!](https://media1.tenor.com/m/2gyy4BcsLWsAAAAd/monkey-confused.gif)
+<img src="https://media1.tenor.com/m/EfXDj90ApuYAAAAd/cursu-dreamybull.gif" alt="Alamak!" width="500" height="250">
 
-Kamu cukup di luar nalar untuk memilih jalan ini.
+😂😂😂😂😂😂😂😂😂😂
 
 ## Teknologi yang Digunakan
 
-- **JavaScript**: Vite w/ React
+- **JavaScript**: Vite (React)
 - **CSS**: TailwindCSS
 - **Animasi**: AOS
 - **Web Hosting**: Netlify
@@ -31,6 +31,10 @@ Sebenernya kalo kamu cuma mau ganti-ganti teks/gambar gaperlu tahu terlalu detai
 4. Jangan berharap banyak sama figma to code😂
 5. Kalo kamu nanya gimana caranya ngubah-ngubah gambar/teks doang, baca lagi no.1😂
 
+Kalo mau cari tutorial yang agak singkat coba deh Traversy Media, kalo mau yang panjang coba lihat FreeCodeCamp. Coba tonton aja vidoe Traversy media yang Git sama yang React.
+
+<img src="https://media1.tenor.com/m/2a1WioPC3MwAAAAd/dreambully-dreambull.gif" alt="Woila!" width="500" height="250">
+
 ## Kontak mungkin?
 
 kalo ada pertanyaan mungkin bisa kontak aku di Instagram, cuma aku buka Instagram paling sebulan sekali😂 jadi ya silahkan dicoba.
@@ -39,4 +43,6 @@ kalo ada pertanyaan mungkin bisa kontak aku di Instagram, cuma aku buka Instagra
 
 (kalo kamu mau kontribusi nambah namamu silahkan aja)
 
-![Sigma](https://media1.tenor.com/m/oLAXXJxlPvkAAAAd/sigma.gif)
+<img src="https://media1.tenor.com/m/7x4wdZSCH8wAAAAd/the-voices-abatukam.gif" alt="Bisa gila!" width="500" height="250">
+
+(Potret kamu yang gak mencalonkan jadi sekbid 9 dan tiba-tiba masuk, lalu setelah itu dapet tugas melanjutkan proker website😂😂😂)
