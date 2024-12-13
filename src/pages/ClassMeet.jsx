@@ -1,11 +1,11 @@
 import Nav from "../components/Nav";
-import Cover from "../assets/classmeet1/cover.jpeg";
-import Esports from "../assets/classmeet1/esports.jpeg";
-import Estafet from "../assets/classmeet1/estafet.jpeg";
-import Futsal from "../assets/classmeet1/futsal.jpeg";
-import K3 from "../assets/classmeet1/k3.jpeg";
-import Poster from "../assets/classmeet1/poster.jpeg";
-import Supporter from "../assets/classmeet1/support.jpeg";
+import Cover from "../assets/classmeet/cover.jpeg";
+import Esports from "../assets/classmeet/esports.jpeg";
+import Estafet from "../assets/classmeet/estafet.jpeg";
+import Futsal from "../assets/classmeet/futsal.jpeg";
+import K3 from "../assets/classmeet/k3.jpeg";
+import Poster from "../assets/classmeet/poster.jpeg";
+import Supporter from "../assets/classmeet/support.jpeg";
 
 function ClassMeet1() {
   return (

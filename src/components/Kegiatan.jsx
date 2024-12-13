@@ -29,7 +29,7 @@ function Kegiatan() {
             <span>Dimas Diajeng</span>
           </Link>
           <Link
-            to="/classmeet1"
+            to="/classmeet"
             onClick={scrollToTop}
             className="bg-[url('assets/kegiatan/3classmeet.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
           >
