@@ -49,7 +49,11 @@ function Kegiatan() {
           >
             <span>HUT RI</span>
           </Link>
-          <Link className="item col-span-2 row-span-2 bg-[url('assets/kegiatan/6huts.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150">
+          <Link
+            to="/hutsmandela"
+            onClick={scrollToTop}
+            className="col-span-2 row-span-2 bg-[url('assets/kegiatan/6huts.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
+          >
             <span>HUT Smandela</span>
           </Link>
           <Link className="item bg-[url('assets/kegiatan/7bb.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150">

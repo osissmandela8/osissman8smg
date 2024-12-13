@@ -21,7 +21,7 @@ Jadi sebenernya akun utama OSIS itu kuubah jadi organisasi dan ternyata gak bisa
 
 Akun GitHub sama Netlify pake yang akun (.github), kalo google search console tetep pake akun utama.
 
-<img src="https://media1.tenor.com/m/o_hNDSl9gbMAAAAd/dreamybullcoldestmoment.gif" alt="Ambatron!" width="500" height="250">
+<img src="https://media1.tenor.com/m/o_hNDSl9gbMAAAAd/dreamybullcoldestmoment.gif" alt="Sigma!" width="500" height="250">
 
 ## Saran (kalo mau)
 
