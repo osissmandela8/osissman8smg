@@ -10,10 +10,10 @@ function Profil() {
         <h2 className="pb-5 text-3xl font-bold text-center md:text-6xl">
           Video Profil OSIS
         </h2>
-        <div className="h-[65vh] md:h-[75vh] w-screen md:w-[768px] p-[24px] grid">
+        <div className="aspect-video md:w-[768px] w-[100vw] p-[24px] grid">
           <iframe
             src="https://www.youtube.com/embed/SGgokA4yLI8"
-            className="w-full h-full rounded-[25px]"
+            className="w-full h-full rounded-[25px] aspect-video hover:scale-105 duration-300 ease-in-out"
             allowfullscreen
             alt="Profil"
           ></iframe>
