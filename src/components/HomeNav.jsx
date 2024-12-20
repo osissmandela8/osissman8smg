@@ -20,14 +20,9 @@ function HomeNav() {
             OSIS SMAN 8 Semarang
           </div>
         </Link>
-        <ul className="absolute md:relative grid grid-cols-2 md:mb-[3px] place-items-center md:text-right md:place-self-end">
+        <ul className="absolute md:relative grid grid-cols-1 md:mb-[3px] place-items-center md:text-right md:place-self-end">
           <li className="md:pl-8 px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white">
             <a onClick={scrollToTop}>Home</a>
-          </li>
-          <li className="md:pl-8 px-8 text-lg font-medium duration-300 ease-in-out md:text-xl hover:scale-105 text-neutral-200 hover:text-white hidden">
-            <Link to="/team" onClick={scrollToTop}>
-              Team
-            </Link>
           </li>
         </ul>
       </div>
