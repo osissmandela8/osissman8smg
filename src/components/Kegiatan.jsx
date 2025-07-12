@@ -56,11 +56,19 @@ function Kegiatan() {
           >
             <span>HUT Smandela</span>
           </Link>
-          <Link className="item bg-[url('assets/kegiatan/7bb.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150">
-            <span>Bulan Bahasa</span>
-          </Link>
-          <Link className="item bg-[url('assets/kegiatan/8ldk.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150">
+          <Link
+            to="/ldk"
+            onClick={scrollToTop}
+            className="bg-[url('assets/kegiatan/7bb.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
+          >
             <span>LDK</span>
+          </Link>
+          <Link
+            to="/porseni"
+            onClick={scrollToTop}
+            className="bg-[url('assets/kegiatan/8ldk.png')] rounded-[25px] bg-center bg-cover grid place-items-center hover:scale-105 duration-300 ease-in-out hover:saturate-150"
+          >
+            <span>PORSENI</span>
           </Link>
         </div>
       </div>

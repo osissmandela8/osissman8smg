@@ -9,7 +9,6 @@ function DimasDiajeng() {
     <>
       <main>
         <article className="grid place-items-center bg-[#171717] pb-10">
-          <div className="bg-center bg-cover"></div>
           <div className="w-screen mt-14 md:w-[768px] p-[24px]">
             <h1 className="text-[32px] md:text-[42px] font-bold">
               Octa Veshakaland: Dimas Diajeng 2024
