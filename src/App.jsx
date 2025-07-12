@@ -54,8 +54,6 @@ function App() {
         <Route path="/hutsmandela" element={<HUTSmandela />} />
         <Route path="/porseni" element={<PORSENI />} />
         <Route path="/ldk" element={<LDK />} />
-        <Route path="/team" element={<Team />} />
-        <Route path="/form" element={<Form />} />
       </Route>
     )
   );
